@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i);
+@import url(../../fonts/norwester.otf);
+@font-face {
+  font-family: Norwester;
+  src: url(../../fonts/norwester.otf); }
+body {
+  background: #fff;
+  margin: 0px auto; }
+
+nav {
+  width: 100%;
+  height: 80px;
+  background: url("../../images/nav.jpg"), #ccc;
+  background-size: cover; }
+  nav .logo {
+    font-family: Norwester, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+    padding: 15px 0px 0px 80px; }
+  nav ul {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 13%; }
+    nav ul li {
+      display: inline-block;
+      color: #fff;
+      font-family: Roboto, sans-serif;
+      font-weight: 500;
+      padding-left: 30px;
+      font-size: 20px; }
+  nav .right {
+    float: right;
+    padding-right: 100px;
+    margin-top: -45px; }
+  nav .search-box {
+    transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #fff; }
+    nav .search-box + label .search-icon {
+      margin-left: -1px;
+      color: black; }
+    nav .search-box:hover {
+      color: white;
+      background: #c8c8c8;
+      box-shadow: 0 0 0 5px #3d4752; }
+      nav .search-box:hover + label .search-icon {
+        color: white; }
+    nav .search-box:focus {
+      transition: width 0.6s cubic-bezier(0, 1.22, 0.66, 1.39), border-radius 0.6s, background 0.6s;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      padding-left: 15px;
+      cursor: text;
+      width: 300px;
+      border-radius: auto;
+      background: #ebebeb;
+      color: black; }
+      nav .search-box:focus + label .search-icon {
+        color: black; }
+    nav .search-box:not(:focus) {
+      text-indent: -5000px; }
+  nav #search-submit {
+    position: relative;
+    left: -5000px; }
+  nav .search-icon {
+    position: relative;
+    left: -30px;
+    color: white;
+    cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
